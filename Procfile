@@ -1,2 +1,2 @@
-web: script/rails server -p $PORT
+web: bundle exec puma -p $PORT
 console: script/rails console
