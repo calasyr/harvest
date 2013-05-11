@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="harvest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,6 +17,7 @@
     <file path="/seeds.rb" changelist="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" time="1368256064787" ignored="false" />
     <file path="/Gemfile" changelist="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" time="1368271462016" ignored="false" />
     <file path="/production.rb" changelist="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" time="1368311461832" ignored="false" />
+    <file path="/routes.rb" changelist="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" time="1368313293370" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,87 +42,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slides_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/slides_controller.rb">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/slides/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="422" selection-end="422" vertical-scroll-proportion="-9.375">
-              <folding>
-                <marker date="1368254578000" expanded="true" signature="21:837" placeholder="do ... end" />
-                <marker date="1368254578000" expanded="true" signature="36:337" placeholder="if ... end" />
-                <marker date="1368254578000" expanded="true" signature="250:302" placeholder="do ... end" />
-                <marker date="1368254578000" expanded="true" signature="441:477" placeholder="{ ... }" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/slides/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="48" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="9" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="88" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.29396325">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.json.jbuilder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/slides/show.json.jbuilder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.json.jbuilder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/slides/index.json.jbuilder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="21" selection-start="294" selection-end="300" vertical-scroll-proportion="0.3139535">
               <folding />
             </state>
           </provider>
@@ -159,6 +83,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -751,20 +676,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/slides/index.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/slides/show.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130511055921_create_slides.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="10" selection-start="162" selection-end="162" vertical-scroll-proportion="0.15495868">
@@ -793,35 +704,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/slides_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0@edge/gems/railties-4.0.0.rc1/lib/rails/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+        <state line="224" column="8" selection-start="9322" selection-end="9322" vertical-scroll-proportion="0.33169532">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/slides/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="422" selection-end="422" vertical-scroll-proportion="-9.375">
-          <folding>
-            <marker date="1368254578000" expanded="true" signature="21:837" placeholder="do ... end" />
-            <marker date="1368254578000" expanded="true" signature="36:337" placeholder="if ... end" />
-            <marker date="1368254578000" expanded="true" signature="250:302" placeholder="do ... end" />
-            <marker date="1368254578000" expanded="true" signature="441:477" placeholder="{ ... }" />
-          </folding>
+        <state line="21" column="88" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.29396325">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/slides/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.5">
+        <state line="9" column="9" selection-start="204" selection-end="204" vertical-scroll-proportion="0.33169532">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
+        <state line="12" column="48" selection-start="736" selection-end="736" vertical-scroll-proportion="0.43165466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/slides/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="0.14778325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/slides/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="422" selection-end="422" vertical-scroll-proportion="0.5541872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/slides_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="247" selection-end="247" vertical-scroll-proportion="0.38372093">
           <folding />
         </state>
       </provider>
@@ -833,23 +760,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/slides/show.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0@edge/gems/railties-4.0.0.rc1/lib/rails/application.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/slides/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="8" selection-start="9322" selection-end="9322" vertical-scroll-proportion="0.33169532">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="88" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.29396325">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="294" selection-end="300" vertical-scroll-proportion="0.3139535">
           <folding />
         </state>
       </provider>
