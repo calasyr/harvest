@@ -15,6 +15,7 @@
     <file path="/_form.html.erb" changelist="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" time="1368254576955" ignored="false" />
     <file path="/show.html.erb" changelist="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" time="1368255310125" ignored="false" />
     <file path="/seeds.rb" changelist="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" time="1368256064787" ignored="false" />
+    <file path="/Gemfile" changelist="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" time="1368269803490" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,19 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.36855036">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="29" selection-start="63" selection-end="63" vertical-scroll-proportion="0.03685504">
+            <state line="1" column="29" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,8 +141,8 @@
         <option value="$PROJECT_DIR$/app/views/slides/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/slides/show.html.erb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -786,16 +787,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+        <state line="1" column="29" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="29" selection-start="63" selection-end="63" vertical-scroll-proportion="0.03685504">
+        <state line="10" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.36855036">
           <folding />
         </state>
       </provider>
