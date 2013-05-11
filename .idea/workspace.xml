@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc5d0ed-4acd-4116-80d0-f528b5ddee76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="harvest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +88,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="9" selection-start="3257" selection-end="3257" vertical-scroll-proportion="0.7051597">
+            <state line="79" column="0" selection-start="3247" selection-end="3247" vertical-scroll-proportion="0.74201477">
               <folding />
             </state>
           </provider>
@@ -830,9 +829,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0@edge/gems/railties-4.0.0.rc1/lib/rails/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="8" selection-start="9322" selection-end="9322" vertical-scroll-proportion="0.33169532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="9" selection-start="3257" selection-end="3257" vertical-scroll-proportion="0.7051597">
+        <state line="79" column="0" selection-start="3247" selection-end="3247" vertical-scroll-proportion="0.74201477">
           <folding />
         </state>
       </provider>
