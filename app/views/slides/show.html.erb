@@ -2,7 +2,7 @@
 
 <p>
   <strong>Lesson:</strong>
-  <%= @slide.lesson.title %>
+  <%= link_to @slide.lesson.title, lesson_path(@slide.lesson.id) %>
 </p>
 
 <p>
