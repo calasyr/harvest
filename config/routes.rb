@@ -1,4 +1,6 @@
 Harvest::Application.routes.draw do
+  resources :helps
+
   resources :slides
 
   resources :lessons

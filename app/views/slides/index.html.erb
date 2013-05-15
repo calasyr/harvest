@@ -16,7 +16,7 @@
   <tbody>
     <% @slides.each do |slide| %>
       <tr>
-        <td><%= slide.lesson.title %></td>
+        <td><%= link_to slide.lesson.title, lesson_path(slide.lesson.id) %></td>
         <td><%= slide.title %></td>
         <td><%= slide.content %></td>
         <td><%= slide.image_url %></td>
